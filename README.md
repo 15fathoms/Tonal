@@ -88,7 +88,7 @@ tonal preview
 Use Tonal in a frontend or Node.js context:
 
 ```js
-import { generatePalette, exportPalette } from 'tonal';
+import { generatePalette, exportPalette } from 'tonal-kit';
 
 const palette = generatePalette('blue', '#3b82f6', 'oklch');
 const css = exportPalette({ blue: palette }, 'css');
