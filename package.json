@@ -1,0 +1,43 @@
+{
+  "name": "tonal",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.js"
+    },
+    "./cli": {
+      "import": "./tonal-cli.js",
+      "require": "./tonal-cli.js"
+    }
+  },
+  "bin": {
+    "tonal": "./tonal-cli.js"
+  },
+  "scripts": {
+    "start": "node tonal-cli.js",
+    "test": "mocha \"tests/**/*.test.js\""
+  },
+  "description": "Smart OKLCH-based color palette generator from multiple base colors",
+  "keywords": [
+    "color",
+    "palette",
+    "cli",
+    "design system"
+  ],
+  "author": "15Fathoms",
+  "license": "MIT",
+  "dependencies": {
+    "colorjs.io": "^0.5.2",
+    "commander": "^13.1.0",
+    "commodore": "^0.0.1",
+    "open": "^10.1.1"
+  },
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.1.0",
+    "sinon": "^20.0.0"
+  }
+}
