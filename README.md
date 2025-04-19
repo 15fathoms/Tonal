@@ -7,13 +7,13 @@
 ## Installation
 
 ```bash
-npm install tonal
+npm install tonal-kit
 ```
 
 For CLI usage globally:
 
 ```bash
-npm install -g tonal
+npm install -g tonal-kit
 ```
 
 ---

@@ -1,5 +1,5 @@
 {
-  "name": "tonal",
+  "name": "tonal-kit",
   "version": "1.0.0",
   "type": "module",
   "main": "./index.js",
@@ -26,6 +26,12 @@
     "palette",
     "cli",
     "design system"
+  ],
+  "files": [
+    "tonal-core.js",
+    "tonal-cli.js",
+    "exporters.js",
+    "preview.js"
   ],
   "author": "15Fathoms",
   "repository": {
