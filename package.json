@@ -30,6 +30,7 @@
   "author": "15Fathoms",
   "repository": {
     "type": "git",
+    "url": "https://github.com/15fathoms/Tonal.git"
     },
   "license": "MIT",
   "dependencies": {
