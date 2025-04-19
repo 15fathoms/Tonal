@@ -199,7 +199,3 @@ We can add it to the list of supported formats.
 ## License
 
 MIT
-
----
-
-Made by Emmanuel
