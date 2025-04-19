@@ -1,8 +1,9 @@
 {
   "name": "tonal-kit",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "type": "module",
   "main": "./index.js",
+  "types": "index.d.ts",
   "exports": {
     ".": {
       "import": "./index.js",
@@ -31,18 +32,19 @@
     "tonal-core.js",
     "tonal-cli.js",
     "exporters.js",
-    "preview.js"
+    "preview.js",
+    "index.js",
+    "index.d.ts"
   ],
   "author": "15Fathoms",
   "repository": {
     "type": "git",
     "url": "https://github.com/15fathoms/Tonal.git"
-    },
+  },
   "license": "MIT",
   "dependencies": {
     "colorjs.io": "^0.5.2",
     "commander": "^13.1.0",
-    "commodore": "^0.0.1",
     "open": "^10.1.1"
   },
   "devDependencies": {
