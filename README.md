@@ -23,7 +23,7 @@ npm install -g tonal-kit
 Tonal expects a `tonal.config.js` file at the root of your project:
 
 ```js
-import { defineConfig } from 'tonal';
+import { defineConfig } from 'tonal-kit';
 
 export default defineConfig({
   colors: {
